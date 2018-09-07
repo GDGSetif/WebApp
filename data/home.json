@@ -1,0 +1,70 @@
+{
+    "chapterName" : "GDG Setif",
+	"chapterMeetupLink":"https://www.meetup.com/GDG-Setif/",
+    "chapterDetailsSmall" : "Google Developers Group Setif is an initiative to concentrate the efforts of many developers in and around Setif to learn, share and get productive using the various Google products.",
+    "chapterMeetupLink" : "https://www.meetup.com/GDG-Setif/",
+	"gdgCommunity" : "https://developers.google.com/programs/community/gdg/",
+	"chapterDescription": "Google Developer Group Setif is inspired by GDG Family . We started our journey in July 2017. We try to engage student developers, fresh graduates and professionals through our hack events & meetups. The motive is to create a local ecosystem of programmers & hackers in and around Setif. The technology awareness is main goal for first few years of the group.",
+	"chapterFacebookLink": "https://www.facebook.com/gdgsetif19",
+    "hashTag" : [
+        {
+            "name" : "#GDGSetif"
+        },
+		{
+            "name" : "#GDGMENA"
+        },
+        {
+            "name" : "#WTMSetif"
+        },
+        {
+            "name" : "#GDG"
+        },
+        {
+            "name" : "#WTM"
+        }
+    ],
+    "socialLinks":[
+        {
+            "name" : "facebook",
+            "link" : "https://www.facebook.com/gdgsetif19",
+            "icon" : "fa-facebook"
+        },
+        {
+            "name" : "twitter",
+            "link" : "https://twitter.com/gdg_setif",
+            "icon" : "fa-twitter"
+        },
+        {
+            "name" : "meetup",
+            "link" : "https://www.meetup.com/GDG-Setif/",
+            "icon" : "fa-meetup"
+        }
+    ],
+    "overviewSection":[
+        {
+            "title" : "Talks",
+            "des" : "Get updated with the latest news and announcements",
+            "icon" : "fa-comments"
+        },
+        {
+            "title" : "Codelabs",
+            "des" : "Get hands-on experience and guidance from the community members",
+            "icon" : "fa-code"
+        },
+        {
+            "title" : "Campus Roadshows",
+            "des" : "Share knowledge in different Companies, colleges and universities",
+            "icon" : "fa-graduation-cap"
+        },
+        {
+            "title" : "Live Viewing Parties",
+            "des" : "Watch live Google's event happening on different countries",
+            "icon" : "fa-television"
+        }
+    ],
+	"eventsSection" : {
+        "title" : "Our Events & Meetups",
+        "des" : "At sessions that span from the technical to the visionary, let’s celebrate and discover what the cloud can enable: how product innovation, open source, and ML and AI can propel enterprises forward and solve the big problems that impact all of us." 
+    }
+    
+}

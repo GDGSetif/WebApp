@@ -1,0 +1,32 @@
+[
+    {
+        "name":"Hachemi Hamadi",
+        "role":"GDG Setif Lead Manager",
+        "profileImg":"https://media.licdn.com/dms/image/C5103AQF50Ol5G290Gg/profile-displayphoto-shrink_200_200/0?e=1539820800&v=beta&t=LPzJJIcDqzaPa20bj8wMcMOT-vLh8FGnRgbQejmV-dQ"
+    },
+    {
+        "name":"Mohamed Ishak Benbaouche",
+        "role":"Co-Organizer",
+        "profileImg":"https://media.licdn.com/dms/image/C5603AQEEU61l_QVuAA/profile-displayphoto-shrink_800_800/0?e=1539820800&v=beta&t=PA69ROO_W-XnGajEFRty87MzSoU6Gk3lOgytUufx2ps"
+    },
+    {
+        "name":"Abderahim Hamani",
+        "role":"Co-Organizer",
+        "profileImg":"assets/img/speakers/avatar.png"
+    },
+      {
+        "name":"Ilhem Hachemi",
+        "role":"WTM Lead",
+        "profileImg":"assets/img/speakers/avatar.png"
+    },
+    {
+        "name":"Asma Merabet",
+        "role":"WTM Lead",
+        "profileImg":"assets/img/speakers/avatar.png"
+    },
+    {
+        "name":"Abderahmane Laloui",
+        "role":"a.k.a BlackBeardXIX",
+        "profileImg":"assets/img/speakers/avatar.png"
+    }
+]

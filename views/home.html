@@ -1,0 +1,125 @@
+<!-- d-none d-lg-block -->
+<div class="container-fluid">
+    <div class="row p-0">
+        <div class="col-md-10 offset-md-1" >
+            <div class="container-fluid">
+                <div class="row mt-5 mb-5 align-items-center" > 
+                    <div class="col-md-6" style="padding-top: auto; padding-bottom: auto" >
+                        <h1 style="font-family: google-sans;font-weight: 350;color: #3c4043;" class="display-5 animated fadeInUp"><b>Make good things <span style="color: #1a73e8;">together</span>.</b></h1>
+                        <br>
+                        <h4 style="font-family: google-sans;" class="animated fadeInUp">{{homeJson.chapterName}}</h4>
+                        <p class="google-font animated fadeInUp">{{ homeJson.chapterDetailsSmall }}</p>
+						<!--
+                        <p class="google-font text-muted animated fadeInUp">
+                            {{homeJson.eventDate}} &nbsp; {{homeJson.eventTime}} &nbsp; {{homeJson.eventVenue}}
+                        </p>
+						-->
+                        <p class="google-font text-muted animated fadeInUp">
+                            <span ng-repeat="hs in homeJson.hashTag">
+                                {{hs.name}} &nbsp;
+                            </span>
+                            
+                        </p>
+
+                        <!-- <h5 class="google-font animated fadeInU">Coming Soon...</h5> -->
+
+                        <ul class="list-inline animated fadeInUp">
+                            <li class="list-inline-item" ng-repeat="sl in homeJson.socialLinks">
+                                <a href="{{sl.link}}" style="color: #3c4043;"><i class="fa {{sl.icon}}" aria-hidden="true"></i></a>
+                            </li>
+
+                        </ul>
+
+                        <a href="{{homeJson.chapterMeetupLink}}" class="btn btn-outline-primary btn-sm mt-2 m-0 waves-effect waves-light z-depth-0 animated fadeInUp google-font" style="text-transform:capitalize;">Become A Member</a>
+                        &nbsp;
+
+                        <a href="{{homeJson.gdgCommunity}}" target="_blank" class="btn btn-primary btn-sm mt-2 m-0 waves-effect waves-light z-depth-0 animated fadeInUp google-font" style="text-transform:capitalize;">Learn More</a>
+                        
+                    </div>
+
+                    <div class="col-md-6 d-none d-lg-block float-right">
+                        
+                            <img src="assets/img/gdg_setif_logo.jpg" alt="" width="400vh">
+                        
+                    </div>
+
+                </div>
+
+            </div>
+        </div>
+       
+    </div>
+</div>
+
+
+    <div class="container-fluid grey lighten-5 d-none d-lg-block">
+        <div class="row">
+			
+            <div class="col-md-10 offset-md-1 pt-5 pb-5">
+			<div class="col-md-10 offset-md-1 text-center">
+                <h4 class="h4-responsive google-font mb-5 heading-color">What we do?</h4>
+			</div>
+                <div class="container-fluid">
+                    <div class="row"> 
+                        <div class="col-md-3 text-center p-5 animated fadeInUp" ng-repeat="svs in homeJson.overviewSection">
+                            <i class="fa {{svs.icon}} fa-3x " style="color: #424242 ;text-align: center" aria-hidden="true"></i>
+                            <br><br>
+                            <h3 style="font-family: google-sans;color: #424242 ;" class="h3-responsive">{{svs.title}}</h3>
+                            <p style="font-size: 90%">{{svs.des}}</p>
+                        </div>
+                    </div>
+					
+					<div class="row mt-5 pt-2">
+                            <div class="col-12">
+                                <div class="wrapper app-logos  text-center">
+                                    <p>About different Google technologies</p>
+                                    <img src="https://raw.githubusercontent.com/gdgphilippines/main-files/master/images/app-logos/android.png" height="80px">
+                                    <img src="https://raw.githubusercontent.com/gdgphilippines/main-files/master/images/app-logos/assistant.png" height="65px">
+                                    <img src="https://raw.githubusercontent.com/gdgphilippines/main-files/master/images/app-logos/cloud.png" height="75px">
+                                    <img src="https://raw.githubusercontent.com/gdgphilippines/main-files/master/images/app-logos/firebase.png" height="100px">
+                                    <img src="https://raw.githubusercontent.com/gdgphilippines/main-files/master/images/app-logos/tensor-flow.png" height="90px">
+                                    <img src="https://raw.githubusercontent.com/gdgphilippines/main-files/master/images/app-logos/polymer.png" height="80px">
+                                </div>
+                            </div>
+                        </div>
+					
+                </div>
+            </div>
+        </div>
+    </div>
+	
+	<div class="container-fluid pt-5 pb-5 special-color text-center text-white ng-scope" style="z-index: -2;">
+            <div class="row pt-4 pb-4">
+                <div class="col-md-10 offset-md-1">
+                    <h4 class="h4-responsive google-font mb-3">About Google Developers Group Setif</h4>
+                    <p>{{homeJson.chapterDescription}}</p>        
+                    <ul class="list-inline hidden-md-down ">
+                        <li class="list-inline-item">
+                            <a class="btn btn-outline-white btn-sm waves-effect z-depth-0" href="{{homeJson.chapterMeetupLink}}" target="_blank" role="button" style="margin:0px;font-size:75%">Meetup Page</a>
+                        </li>
+                        <li class="list-inline-item">
+                            <a class="btn btn-outline-white btn-sm waves-effect z-depth-0" href="{{homeJson.chapterFacebookLink}}" target="_blank" role="button" style="margin:0px;font-size:75%">Facebook Page</a>
+                        </li>
+                    </ul>
+        
+                    <a class="m-0 mt-3 " href="#" style="font-size:85%;color:white">See More about GDG Setif</a>
+                
+                </div>
+            </div>
+        </div>
+        
+        <div class="row mt-5">
+            <div class="col-md-6 offset-md-3 text-center mt-5">
+                <h3 style="font-family: google-sans;color: #1a73e8;" class="mb-3">{{homeJson.eventsSection.title}}</h3>
+                <p>{{homeJson.eventsSection.des}}</p>
+            </div>
+        </div>
+		<br>
+		<br>
+		<h4 class="google-font animated fadeInU text-center">Coming Soon...</h4>
+		<br>
+		<br>
+		<br>
+		<br>
+
+    </div>

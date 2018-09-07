@@ -1,0 +1,69 @@
+{   "chaperName" : "GDG Setif",
+    "chapterSocialMediaLinks": {
+        "facebook" : "https://www.facebook.com/gdgsetif19",
+        "twitter" : "https://twitter.com/gdg_setif",
+        "meetup" : "https://www.meetup.com/GDG-Setif/",
+        "linkedin" : "https://www.linkedin.com/company/gdgsetif/",
+        "github" : "https://github.com/GDGSetif"
+    },
+    "aboutSection":[
+        {
+            "linkName" : "GDG Setif",
+            "link" : "http://www.gdgsetif.club/"
+        },
+        {
+            "linkName" : "Google Developers Groups",
+            "link" : "https://developers.google.com/programs/community/gdg/"
+        },
+        {
+            "linkName" : "WomenTechamkers",
+            "link" : "https://www.womentechmakers.com/"
+        },
+        {
+            "linkName" : "Meet the Team",
+            "link" : "/team"
+        },
+        {
+            "linkName" : "Become a Member",
+            "link" : "https://www.meetup.com/GDG-Setif/"
+        }
+    ],
+    "eventResourcesSection" : [
+        {
+            "linkName" : "Become a Sponsor",
+            "link" : "mailto:contact@gdgsetif.club"
+        },
+        {
+            "linkName" : "Call for Speaker",
+            "link" : "mailto:contact@gdgsetif.club"
+        }
+    ],
+    "DevConsole" : [
+        {
+            "linkName" : "Google API Console",
+            "link" : "https://console.developers.google.com/"
+        },
+        {
+            "linkName" : "GCP Console",
+            "link" : "https://console.cloud.google.com/"
+        },
+        {
+            "linkName" : "Google Play Console",
+            "link" : "https://console.cloud.google.com/"
+        },
+        {
+            "linkName" : "Firebase Console",
+            "link" : "https://console.firebase.google.com/"
+        }
+    ],
+    "footerEndSection" : [
+        {
+            "linkName" : "Code of Conduct",
+            "link" : "#"
+        },
+        {
+            "linkName" : "Terms & Servies",
+            "link" : "#"
+        }
+    ]
+}
